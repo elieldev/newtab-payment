@@ -74,7 +74,6 @@ function Pay({ username, closeButton}) {
                 />
                 <select name="selectCard" defaultValue={'info_card'}>
                   <option disabled></option>,
-                  {/* Ira retornar os cartoes listados do fetch em um novo array */}
                   {cards.map((card) => {
                     return (
                       <option key={card.card_number} value={card.card_number}>
