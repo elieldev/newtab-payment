@@ -1,6 +1,7 @@
 {
   "name": "newtab-payment",
   "version": "0.1.0",
+  "homepage": "newtab-payment/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
