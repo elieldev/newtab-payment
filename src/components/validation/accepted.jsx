@@ -1,7 +1,7 @@
 function Accepted({ username }) {
   return (
     <>
-      <p style={{ color: '#000', fontWeight: '500', fontSize:'1.2em', margin:'40px 0 40px 0', whiteSpace:'nowrap' }}>
+      <p style={{ color: '#000', fontWeight: '500', fontSize:'1.2em', margin:'40px 0 40px 0' }}>
        O pagamento foi concluído com sucesso.
       </p>
     </>
