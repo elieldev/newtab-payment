@@ -1,0 +1,37 @@
+:root{
+  
+  /* Colors */
+  --background_color1: #373957;
+  --background_color2: #2E3047;
+  --background_color3: #27283A;
+  --primary_color: #fff;
+  --secundary_color:#000;
+  /* Fonts */
+  --font_primary_family:'Roboto', sans-serif;
+  --user_font_family:'Poppins', sans-serif;
+  --user_color:#ffe600;
+
+  
+
+
+}
+
+body{
+/* Global settings */     
+  background-color: var(--background_color2);
+  font-family: var(--font_primary_family);
+  color: var(--primary_color);
+  font-size: 1.1em;
+  
+}
+
+header {
+  height: 80px;
+}
+
+footer {
+  height: 120px;
+}
+
+
+

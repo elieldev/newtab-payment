@@ -1,0 +1,84 @@
+.user {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  grid-template-columns: 0.1fr 1.8fr 0.7fr;
+  grid-template-rows: auto;
+  border-bottom: solid #fff 0.1px;
+  box-shadow: inset 0px 0px 100px 30px var(--background_color3);
+  background-image: linear-gradient(to top, #373957, #2e3047, #27283a);
+}
+
+.userData {
+  margin: 30px 20px 30px 20px;
+}
+
+.user:last-child {
+  border-bottom: solid var(--background_color3) 0.1px;
+}
+
+.user_fonts {
+  font-family: var(--user_font_family);
+}
+
+.text,
+p {
+  margin: unset;
+  margin-left: 20px;
+  line-height: 23.5px;
+}
+
+#userPicture {
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+#Button {
+  border: unset;
+  height: 25px;
+  width: 100px;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 0;
+}
+
+#Button:hover {
+  transform: scale(1.05);
+  transition: all 0.5;
+}
+
+@media screen and (max-width: 500px) {
+  .user {
+    width: 80%;
+    max-width: 85%;
+    grid-template-columns: 0.8fr;
+    justify-content: center;
+    border: solid #fff 0.1px; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 0px 100px 30px var(--background_color3);
+    min-width: 400px;
+  }
+
+  .user::after {
+    display: none;
+  }
+
+  .text {
+    white-space: nowrap;
+  }
+  
+  #Button {
+    margin-left: 5%;
+    width: 90%;
+    height: 40px;
+  }
+
+  #userPicture {
+    margin-left: 35%;
+  }
+  
+}
